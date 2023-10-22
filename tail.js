@@ -1,6 +1,10 @@
 const assertEqual = function(actual, expected) {};
 const tail = function(arr) {
- return tail.slice
+  if (arr.length <= 1){
+    return [];
+  }
+
+ return arr.slice(1); 
   
  
 } 
